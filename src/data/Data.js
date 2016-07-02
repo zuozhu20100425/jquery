@@ -13,7 +13,6 @@ Data.uid = 1;
 Data.prototype = {
 
 	cache: function( owner ) {
-
 		// Check if the owner object already has a cache
 		var value = owner[ this.expando ];
 
